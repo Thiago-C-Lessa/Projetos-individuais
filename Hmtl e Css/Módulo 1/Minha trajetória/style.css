@@ -1,0 +1,217 @@
+/*Tenta usar medidas relativas, isso evita que a qualquer ajuste de tamanho você precise editar paddings e margins pixel por pixel*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Open+Sans:wght@300;400;500&family=PT+Sans+Caption:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-image: linear-gradient(45deg,#f8cf84, #e2b333);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#logo{
+    border: 0;
+    /*adicionando uma pequena margem só para que o logo fique um pouco mais separado das opçoes de navegaçao*/
+    margin-right: 1rem;
+}
+img{
+    padding: 0px;
+    border: 2px solid black;
+}
+#e1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+#contato{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#cabeçalho{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    background-color: #7f4713;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white; 
+    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.4);
+}
+nav{
+    padding-top: 2rem; 
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.3seg ease;
+}
+nav a:hover{
+    letter-spacing: 0.15rem;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+#menu_op{
+    margin-left: 30px;
+}
+#caixa{
+    display: flex;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 0px; 
+}
+#textin{
+   /* font-size: large;*/
+    font-size: 1.3em;
+    background-color: #eed597;
+    border-radius: 18px;
+    padding-top: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-right: 10px;
+}
+#subfundo{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 18px;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-top: 12%;
+    margin-bottom: 5%;
+    margin: 100;
+    padding-top: 40px;
+    padding-bottom: 5%; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+#legenda_imagem_eu{
+    display: flex;
+    flex-direction: column;
+}
+#text_mirante{
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+/*abaixo estética hobbies*/
+#sub-hobbies{
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 18px;
+    padding-top:5% ;
+    padding-bottom: 5%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+#hobbies_f{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#hobbies_f p{
+    font-size: 1.3em;
+    margin-left: 10px;
+    background-color: #eed597;
+    border-radius: 18px;
+    padding-top: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+#imagem{
+display: flex;
+flex-direction: column;
+width: 30%;
+}
+#legenda_foto_hobbie{
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+}
+#passa{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/*abaixo ficam as modificações do formulário*/
+#sub_formulário{
+    display: flex;
+    justify-content: center;
+   background-image: linear-gradient(215deg, rgb(126, 75, 27),rgb(127, 71, 19));
+   border-radius: 18px;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 7%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+#formulário{
+    min-height: 16rem;
+    min-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 18px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#input-field{
+position: relative;
+}
+#input-field input{
+   outline: none;
+   background-color: white;
+   font-size: 0.9rem;
+   margin: 0.6rem;
+}
+#input-field input::placeholder{
+    font-size: 1.22em;
+    color: rgba(0, 0, 0, 0.7);
+}
+/*linha abaixo dos campos de resposta*/
+#underline{
+border-bottom: 2px solid gray;
+}
+/*linha abaixo dos campos de resposta*/
+form input[type="submit"]{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: linear-gradient(to right,#e2b333, #f8cf84);
+    cursor:pointer;
+    font-size: 1rem;
+   font-weight: 500;
+   transition: all 0.3s ease;
+   border-radius: 8px;
+}
+form input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to left,#e2b333, #f8cf84);
+}
