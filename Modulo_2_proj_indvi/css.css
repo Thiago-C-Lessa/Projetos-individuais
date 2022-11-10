@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide{display: none;}
+
+.show{display: block;}
+
+body{
+    background-image: url("img/WtShort1.png");
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#pSup{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#help{
+    background-image: url("img/win95H.png");
+    background-size: cover;
+    width: 434px;
+    height: 322px;
+    margin-top: 25px;
+    margin-left: 8px;
+    padding-left: 17px;
+    padding-right: 26px;
+}
+
+#help h1{
+    font-size: 2rem;
+    margin-top: 85px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-family: 'VT323', monospace;
+}
+
+#help span{
+    font-family: 'VT323', monospace;
+    font-size: 1.25rem;
+}
+
+#input{
+    display:flex;
+    flex-direction: column;
+    background-image: url("img/win95txt.png");
+    background-size: cover;
+    width: 456px;
+    height: 305px;
+    border: 0;
+    padding-top: 130px;
+    margin-right: 1%;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+#input span{
+    border: 0;
+    padding-left: 3%;
+    margin-left: 0;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+}
+
+textarea{
+    width: 425px;
+    margin-left: 10px;
+}
+
+#msg{
+    width: 300px;
+}
+
+/*tipo de criptografia*/
+
+#opcoes{
+    background-image: url("img/janelwin95.png");
+    background-size: cover;
+    width: 330px;
+    height: 211px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    margin-left: 2%;
+}
+
+#opcoes span{
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+}
+
+#spa{
+    align-self: center;
+    margin-bottom: 3%;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+}
+
+#op{
+    align-self: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+#dOpX64{
+    background-image: url("img/butaowin.png");
+    width: 78px;
+    height: 23px;
+    padding-top: 3px;
+   padding-left: 15px;
+}
+
+#dOpCesar{
+    background-image: url("img/Botãowin95.jpg");
+    width: 155px;
+    height: 23px;
+    margin-right: 20px;
+    padding-top: 3px;
+   padding-left: 18px;
+}
+
+/*incremento*/
+
+#mov{
+    background-image: url("img/recicleWin95.png");
+    background-size: cover;
+    width: 200px;
+    height: 190px;
+    margin-left: 45px;
+    padding-top: 60px;
+    padding-left: 10px;
+    display: none;
+    flex-direction: column;
+}
+
+#incremento{
+    width: 180px;
+}
+
+/* ações*/
+
+#buttons{
+    background-image: url("img/win95Run.png");
+    background-size: cover;
+    width: 330px;
+    height: 155px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 18%;
+}
+
+#buttonsB{
+    display: flex;
+    align-self: center;
+}
+
+#cod{
+    background-image: url("img/butaowin.png");
+    width: 78px;
+    height: 23px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#deco{
+    background-image: url("img/butaowin.png");
+    width: 78px;
+    height: 23px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#fundo2{
+    display: flex;
+}
+
+/*output*/
+
+#output{
+    background-image: url("img/win95Prompt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 372px;
+    height: 194px;
+    padding-top: 40px;
+    margin-top: 14px;
+    margin-left: 45%;
+    position: fixed;
+}
+
+#outs{
+    color: white;
+    margin-left: 10px;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+}
+
+
+
+#out{
+    width: 360px;
+    height: 130px;
+    margin: 0;
+    margin-left: 7px;
+    padding-left: 1px;
+    padding-right: 2px;
+}
+
+#saidaa{
+    width: 340px;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    height: 5%;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url("img/footer.png");
+    background-size: cover;
+    margin-top: 10px;
+}
+
+#link{
+    width: 104px;
+    height: 39px;
+}

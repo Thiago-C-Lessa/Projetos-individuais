@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifragem</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+
+        <header id="header"></header>
+
+        <div id="corpo">
+
+            
+            <div id="pSup">
+                <div id="help">
+                    <h1>cripitografia: como usar</h1>
+                    <span>Cripitograr suas mensagens permite que só você e quem você deixar verá elas. Basta você digitar a mensagem que será codificada, selecionar o tipo de cripitografia e clicar em "Codificar".Na cifra de cesar você precisa inserir um valor NUMÉRICO que deslocará as letras. Para descriptografar é o mesmo processo mas você clicará em "Decodificar".</span>
+                </div>
+
+                <div id="input">
+                    <span>Digite o texto que deseja alterar</span>
+                    <textarea name="msg" id="entr" placeholder="Digite seu texto aqui" rows="8"></textarea>
+                </div>
+
+                <form id="opcoes">
+                    <span id="spa">Tipo de cripitografia</span>
+                    <div id="op">
+                   <div id="dOpCesar"><input type="radio" id="opCesar"> <span>Cifra de Cesar</span></div>
+                   <div id="dOpX64"><input type="radio" id="opX64"> <span>X64</span></div>
+                    </div>
+                </form>
+
+
+            </div>
+
+                <div id="buttons">
+                        <div id="buttonsB">
+                    <button id="cod" onclick="cod()">Codificar</button>
+                    <button id="deco" onclick="dec()">Decodificar</button>
+                        </div>
+                </div>
+
+                <div id="fundo2">
+                    <div id="mov">
+                        <span>Incremento da Cifra</span>
+                        <input type="number"id="incremento"placeholder="Incremento">
+                    </div>
+                    <div id="output">
+                        <span id="outs">Seu texto aparecerá aqui:</span>
+                        <div id="out">
+                        <textarea name="saida" id="saidaa"  rows="8"></textarea>
+                    </div>
+                </div>
+
+
+            
+
+        </div>
+        <footer id="footer">
+            <!-- Easter-egg bobo no botão iniciar-->
+            <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Windows_2000_Blue_Screen_of_Death_%28INACCESSIBLE_BOOT_DEVICE%29.svg/960px-Windows_2000_Blue_Screen_of_Death_%28INACCESSIBLE_BOOT_DEVICE%29.svg.png"><div id="link"></div></a>
+
+        </footer>
+        
+</body>
+<script src="js.js"></script>
+</html>
